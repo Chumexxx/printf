@@ -49,10 +49,8 @@ int prinnhex(va_list arguments, char *buf, unsigned int ibuf);
 int prinnupx(va_list arguments, char *buf, unsigned int ibuf);
 int prinsint(va_list arguments, char *buf, unsigned int ibuf);
 int prinnint(va_list arguments, char *buf, unsigned int ibuf);
-int printwidth(va_list arguments, char const *buf, unsigned int ibuf);
 int (*get_print_func(const char *s, int index))(va_list, char *, unsigned int);
 int ev_print_func(const char *s, int index);
-long my_strtol(char *p, char **end)
 unsigned int handl_buf(char *buf, char c, unsigned int ibuf);
 int print_buf(char *buf, unsigned int nbuf);
 char *fill_binary_array(char *binary, long int int_in, int isneg, int limit);
