@@ -34,7 +34,7 @@ print_t pr[] = {
 {" +i", prinpint}, {" +d", prinpint},
 {"+ i", prinpint}, {"+ d", prinpint},
 {"-i", prinpint}, {"%d", printwidth},
-{"%", print_prg}, {NULL, NULL},
+{" %", print_prg}, {NULL, NULL},
 };
 int i = 0, j = 0, first_index;
 
