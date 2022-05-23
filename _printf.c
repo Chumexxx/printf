@@ -43,8 +43,7 @@ i += ev_print_func(format, i + 1);
 }
 else
 handl_buf(buffer, format[i], ibuf), len++;
-for (ibuf = len; ibuf > 1024; ibuf -= 1024)
-;
+for (ibuf = len; ibuf > 1024; ibuf -= 1024);
 }
 print_buf(buffer, ibuf), free(buffer), va_end(arguments);
 return (len);
