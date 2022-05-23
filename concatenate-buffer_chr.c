@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* handl-buf: concatenates the buffer characters
+* handl-buf - concatenates the buffer characters
 * @buf: buffer pointer
 * @c: character to concatenate
 * @ibuf: index of buffer pointer
