@@ -4,7 +4,8 @@
 * print_add - prints the address of an input variable
 * @arguments: input address.
 * @buff: buffer pointer.
-* @echo: output of handl_buf.
+*
+* @echo: output of a function.
 *
 * Return: number of chars printed.
 */
