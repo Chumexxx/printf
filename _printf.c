@@ -14,7 +14,7 @@ va_list arguments;
 int (*function)(va_list, char *, unsigned int);
 char *buffer;
 
- va_start(arguments, format), buffer = malloc(sizeof(char) * 1024);
+va_start(arguments, format), buffer = malloc(sizeof(char) * 1024);
 if (!format || !buffer || (format[i] == '%' && !format[i + 1]))
 return (-1);
 if (!format[i])
